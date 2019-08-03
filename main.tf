@@ -1,5 +1,5 @@
 module "resource_group" {
-  source = "github.com/bhaskar39/resource_group?ref=v1.1"
+  source = "github.com/bhaskar39/resource_group?ref=v1.2"
   resource_group_name       = "${var.resource_group_name}"
   location                  = "${var.location}"
   environment               = "${var.environment}"
