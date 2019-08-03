@@ -3,7 +3,7 @@ terraform {
       resource_group_name = "Diva-AKS-Storage-POC"
       storage_account_name  = "repostrgdevaks"
       container_name        = "statefiles"
-      access_key = "RlIrnXdF/Gd0Vuvc3pNF8l4XrnnHY3U+Dk53ymv2JHCakWOpAuYsrER1X0qMvaBYyzbhZuB8AAeGTQFZ2tW7QQ=="
+      access_key = "xrSHApTt0rumfjs0ogpcA6ebd28AAYjbk1mzkV95iYhlAwjRzlvmBprJMBT7K77bg9qlw95BpR6QJeMpqNTv9Q=="
       key                   = "Dev/terraform.tfstate"
   }
 }
