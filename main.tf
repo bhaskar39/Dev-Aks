@@ -9,7 +9,7 @@ module "resource_group" {
 module "virtual_network" {
   source = "github.com/bhaskar39/virtualnet?ref=v1.5"
 
-  resource_group_name       = "${var.resource_group_name}"
+  resource_group_name       = "${module.resource_group.resource_group_name}"
   location                  = "${var.location}"
   vnet_cidr                 = "${var.vnet_cidr}"
   subnet_cidr               = "${var.subnet_cidr}"
