@@ -7,7 +7,7 @@ module "resource_group" {
 }
 
 module "virtual_network" {
-  source = "github.com/bhaskar39/resource_group?ref=v1.2"
+  source = "github.com/bhaskar39/virtualnet?ref=v1.0"
 
   resource_group_name       = "${var.resource_group_name}"
   location                  = "${var.location}"
